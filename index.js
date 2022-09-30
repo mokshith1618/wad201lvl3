@@ -71,7 +71,7 @@ const todoList = () => {
       // ..
       // ..
       // return OUTPUT_STRING
-      let OUTPUT_STRING="\n".join(list);
+      let OUTPUT_STRING=list.join("\n");
       return OUTPUT_STRING
     }
   
